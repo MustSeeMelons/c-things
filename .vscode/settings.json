@@ -1,0 +1,30 @@
+{
+  "files.associations": {
+    "*.ejs": "html",
+    "*.ts": "typescript",
+    "__bit_reference": "c",
+    "__mutex_base": "c",
+    "__node_handle": "c",
+    "array": "c",
+    "ios": "c",
+    "istream": "c",
+    "optional": "c",
+    "ostream": "c",
+    "sstream": "c",
+    "streambuf": "c",
+    "string_view": "c",
+    "thread": "c",
+    "tuple": "c",
+    "variant": "c",
+    "vector": "c",
+    "*.tcc": "c",
+    "concepts": "c",
+    "string": "c",
+    "unordered_map": "c",
+    "memory": "c",
+    "stop_token": "c",
+    "functional": "c",
+    "type_traits": "c",
+    "queue": "c"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Compile active file",
+      "type": "shell",
+      "command": "gcc",
+      "args": [
+        "-Wall", // This is the GCC option for all warnings
+        "${file}", // This will compile the currently open C file
+        "-o", // This specifies the output file
+        "${fileDirname}/${fileBasenameNoExtension}" // This is the output file name without extension
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
